@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>My First Website</title>
+</head>
+<body>
+    <h1 class="center">This is a Basic Form</h1>
+    <div class="center">
+        <form action="sql.php" method="POST">
+            <label  for="username">Username:</label><br>
+            <input type="text" name="username" placeholder="Enter your name"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" placeholder="Enter your password"><br>
+            <select name="sql">
+                <option value="INSERT"> INSERT </option>
+                <option value="SELECT"> SELECT </option>
+                <option value="DELETE"> DELETE </option>
+            </select><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
